@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Lato:ital,wght@1,400;1,700&family=Oswald:wght@200&family=Roboto:wght@500&display=swap');
+
+.container{
+    font-family: 'Inter', sans-serif;
+}
+
+section{
+    background-color: black;
+    height: 350px;
+    padding:  30px 0 0 115px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.card{
+    width: 320px;
+    height: 260px;
+    background-color: white;
+    border-radius: 44px;
+    padding: 25px;
+    margin-right: 25px;
+}
+
+.cover{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    border-radius: 22px;
+    box-shadow: 0 0 30px 12px lightgrey;
+}
+
+.profil{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -213px;
+    margin-top: 68px;
+}
+
+.profil-detail{
+    text-align: center;
+}
+.name{
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.user{
+    font-size: 11px;
+    color: rgb(182, 180, 180);
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+.flex p{
+    padding: 0 27px;
+}
+span{
+    font-weight: bold;
+}
+.green{
+    color: rgb(5, 148, 79);
+    font-weight: bold;
+}
+
+.section-1{
+    background-color: black;
+    height: 510px;
+    padding:  30px 0 0 115px;
+    margin-bottom: 15px;
+}
+
+.card-1{
+    width: 320px;
+    height: 400px;
+    background-color: white;
+    border-radius: 44px;
+    padding: 25px;
+    box-shadow: 0 0 5px 1px lightgrey;
+    margin-right: 25px;
+}
+
+.card-1, .card:hover{
+    cursor: pointer;
+}
+
+.evil{
+    width: 100%;
+    height: 290px;
+    position: relative;
+    border-radius: 22px;
+}
+
+.time{
+    background-color: #f56668;
+    border-radius: 15px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    padding: 7px 15px;
+    font-size: 10px;
+    margin-top: 243px;
+    margin-left: -300px
+}
+
+.detail{
+    padding: 8px;
+}
+.flex-1{
+    display: flex;
+    font-size: 12px;
+}
+
+svg{
+    color: #0d6efd;
+    padding-top: 3px;
+}
+
+.mg-0{
+    margin: 0;
+}
+
+.created_by{
+    font-size: 10px;
+    padding: 4px 0;
+}
+
+.created_by span{
+    padding-right: 3px;
+}
+
+.current{
+    margin: 0;
+    font-size: 12px;
+    color: rgb(182, 180, 180);
+    padding: 10px 0;
+}
+
+.img-small{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 16px 6px 0 70px;
+}
+
+.retouch{
+    font-weight: bold; 
+    padding-right: 3px;
+}
